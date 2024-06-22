@@ -1,0 +1,561 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+
+.navBar {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(211, 213, 212, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.11), 0 2px 2px rgba(0,0,0,0.11), 0 4px 4px rgba(0,0,0,0.11), 0 6px 8px rgba(0,0,0,0.11), 0 8px 16px rgba(0,0,0,0.11);
+}
+h1 {
+    font-size: 40px;
+}
+
+span{
+    color: rgb(229, 65, 122);
+}
+.subNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    transition: all 0.5s;
+}
+.subNav a {
+    font-size: 25px;
+    padding: 10px 15px;
+    transition: all 0.8s;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+/* to hide the checkbox */
+input {
+    display: none;
+}
+
+/* to hide the bar icon */
+input:checked~.subNav {
+    background-color: crimson;
+    left: 0;
+}
+.subNav a:hover {
+    background-color: slateblue;
+}
+.fa-bars {
+    font-size: 31px;
+    display: none!important;
+}
+
+.content{
+    padding-top: 200px;
+}
+
+.imgfirst{
+    width: 100%;
+   
+    height: 600px;
+}
+.left{
+    width: 50%;     
+}
+.right{
+    width: 50%;     
+}
+.moni{
+    width:630px;
+    height:485px;
+    margin-top: 33px;
+    margin-left: 35px;
+}
+.container{
+    width: 100%;
+    display: flex;
+}
+.fa-car{
+    font-size:50px;
+     padding-top: 29px;
+   
+}
+ .icon1{
+    display: flex;
+    gap: 30px;
+} 
+.icon2{
+    display: flex;
+    gap: 30px;
+}
+
+.main-head{
+    font-size: 15px;
+    /* padding-top: 40px; */
+}
+.main-title{
+    font-size: 15px;
+    padding-top: 30px;
+    line-height: 20px;
+
+}
+.pair-h{
+    margin-top: 55PX;
+}
+
+h2{
+    font-size: 20px;
+    text-align: center;
+    background: linear-gradient(90deg, #ff0000, #ffff00, #ff00f3,#0033ff,#ff00c4, #ff0000);
+    background-size: 400%;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-weight: 300;
+    word-spacing: 4px;
+
+}
+
+.service{
+    width: 100%;
+    padding: 10px; 
+    /* background: #ddd; */
+    background: burlywood;
+    
+    padding-left: 30px; 
+    justify-content: center;
+    padding-top: 50px;
+    
+
+    
+
+    display: flex;
+    gap:20px; 
+
+}
+.sbox{
+    width: 300px;
+    height: 250px;
+    background-color: blue;
+    border: 2pxsolid black;
+   
+    margin: 0px 10px;
+    transition: 1s;
+    
+
+}
+.sbox:hover{
+    transform:scale(1.2);
+    background: #ff800a;
+    box-shadow: 2px 2px 2px #000;
+    z-index: 2;
+
+
+}
+
+.imgsec{
+    width: 230px;
+    height:250px;
+}
+
+
+/* div with icon */
+.boxes3{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    gap:45px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.box1{
+  width:24%;
+  text-align: center;
+  padding: 20px;
+  transition: 1s;
+} .box1:hover{
+  transform: scale(1.2);
+} 
+/* icon */
+.box-icon1{
+      width: 65px;
+}
+
+.box3-heading{
+  font-size: 25px;
+  font-weight: bolder;
+  color: black;
+  padding-top: 15px;
+}
+
+h4{
+  font-size: 29px;
+  padding-bottom: 10px;
+}
+.box32-h4{
+  padding-top: 14px;
+}
+.box3-p{
+  color: black;
+  line-height: 27px;
+  font-size: 18px;
+}
+/* div with icon */
+
+/* footer */
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+    background-color: rgb(68, 57, 78);
+    padding-top: 50px;
+    padding-bottom: 70px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+
+.heading{
+         color: rgb(251, 251, 80);
+         text-align: center;
+}
+p{
+     line-height: 30px;
+}
+
+
+/* footer col3 */
+/* icon and p */
+.col4rows{
+         display: flex;
+         gap:10px;
+}
+
+.icons{
+      padding: 5px;
+      color: rgba(255, 39, 172, 0.973);
+      font-size: 18px;
+}
+
+
+/* footer */
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+    background-color: rgb(68, 57, 78);
+    padding-top: 50px;
+    padding-bottom: 70px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+
+.heading{
+         color: rgb(251, 251, 80);
+         text-align: center;
+}
+p{
+     line-height: 30px;
+}
+
+
+/* footer col3 */
+/* icon and p */
+.col4rows{
+         display: flex;
+         gap:10px;
+}
+
+.icons{
+      padding: 5px;
+      color: rgba(255, 39, 172, 0.973);
+      font-size: 18px;
+}
+
+/* fixed icon */
+.fixeddiv{
+    cursor: pointer;
+}
+.fa-whatsapp{
+           font-size: 45px;
+           color: rgb(6, 125, 6);
+           position: fixed;
+           bottom: 40px;
+           right: 40px;
+}
+.fa-whatsapp:hover{
+                 transform: scale(1.1);
+}
+
+h6{
+    position: fixed;
+    right: 6px;
+    bottom: 10px;
+    color: rgb(245, 19, 143);
+    font-size: 17.3px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+    
+
+@media only screen and (min-width:300px) and (max-width:600px) {   
+
+    input:checked~.subNav {
+            background-color: rgb(90, 185, 222);
+            left: 0;       
+    }
+    
+    /* nav to display*/
+    .subNav {
+        position: fixed;
+        background-color: rgb(81, 159, 115);
+        left: 100%;
+        top: 46px;
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 50px;
+        height: 93vh;       
+    }
+    
+    .fa-bars { 
+        font-size: 20px;
+        display:unset!important;
+    }
+    
+    /* navbar */
+    .navBar{
+            padding: 5px;
+            justify-content: space-between;
+        }
+    .navBar h1 {
+            font-size: 32px;        
+    }
+
+
+    /* .content{
+        padding-top: 200px;
+    }
+     */
+    /* .imgfirst{
+        width: 100%;
+       
+        height: 600px;
+    } */
+    .left{
+        width: 100%;     
+    }
+    .right{
+        width: 100%;  
+          
+    }
+    .moni{
+        width:100%;
+        height:485px;
+        margin-top: 33px;
+        margin-left: 0px;
+       
+    }
+    .container{
+       
+        flex-direction: column;
+    }
+    .fa-car{
+        font-size:50px;
+         padding-top: 29px;
+       
+    }
+     .icon1{
+        display: flex;
+        gap: 30px;
+    } 
+    .icon2{
+        display: flex;
+        gap: 30px;
+    }
+    
+    .main-head{
+        font-size: 15px;
+        /* padding-top: 40px; */
+    }
+    .main-title{
+        font-size: 15px;
+        padding-top: 30px;
+        line-height: 20px;
+    
+    }
+    .pair-h{
+        margin-top: 55PX;
+    }
+    
+    h2{
+        font-size: 20px;
+        text-align: center;
+        background: linear-gradient(90deg, #ff0000, #ffff00, #ff00f3,#0033ff,#ff00c4, #ff0000);
+        background-size: 400%;
+        font-family: sans-serif;
+        letter-spacing: 2px;
+        font-weight: 300;
+        word-spacing: 4px;
+    
+    }
+    
+    .service{
+       
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        gap:20px; 
+    
+    }
+    .sbox{
+        width: 300px;
+        height: 250px;
+
+        
+    
+    }
+    
+    .imgsec{
+        width: 300px;
+        height:250px;
+    }
+    
+    
+    /* div with icon */
+    .boxes3{
+        width:100%;
+        flex-direction: column;
+       
+    }
+    
+    .box1{
+      width:100%;
+      text-align: center;
+      padding: 20px;
+      transition: 1s;
+    } .box1:hover{
+      transform: scale(1.1);
+    } 
+    /* icon */
+    .box-icon1{
+          width: 65px;
+    }
+    
+    .box3-heading{
+      font-size: 25px;
+      font-weight: bolder;
+      color: black;
+      padding-top: 15px;
+    }
+    
+    h4{
+      font-size: 29px;
+      padding-bottom: 10px;
+    }
+    .box32-h4{
+      padding-top: 14px;
+    }
+    .box3-p{
+      color: black;
+      line-height: 27px;
+      font-size: 18px;
+    }
+    /* div with icon */
+    
+    /* footer */
+    footer{
+        display: flex;
+     align-items: center;
+        flex-direction: column;
+        
+    }
+    
+    .heading{
+             color: rgb(251, 251, 80);
+             text-align: center;
+    }
+    p{
+         line-height: 30px;
+         
+    }
+    
+    
+    /* footer col3 */
+    /* icon and p */
+    .col4rows{
+             display: flex;
+             gap:10px;
+    }
+    
+    .icons{
+          padding: 5px;
+          color: rgba(255, 39, 172, 0.973);
+          font-size: 18px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

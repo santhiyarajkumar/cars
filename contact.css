@@ -1,0 +1,534 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* nav */
+.navBar {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(211, 213, 212, 0.8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.11);
+}
+
+.navBar h1 {
+    font-size: 40px;
+}
+
+.subNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    transition: all 0.5s;
+}
+
+.subNav a {
+    font-size: 25px;
+    color: rgb(47, 47, 162);
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: all 0.8s;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+/* to hide the checkbox */
+.check{
+    display: none;
+}
+
+input:checked~.subNav {
+    background-color: rgb(201, 201, 105);
+    left: 0px;
+}
+
+.subNav a:hover {
+    background-color: slateblue;
+}
+
+/* to hide the bar icon */
+.fa-bars {
+    font-size: 31px;
+    display: none!important;
+}
+
+
+           /* for bg img */
+           .bgimg{
+            background-image: url('https://stimg.cardekho.com/images/carexteriorimages/930x620/Mercedes-Benz/GLS/9791/1704772236530/front-left-side-47.jpg?tr=w-420');
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center ;
+            height: 90vh;  
+            color: white;  
+            text-align: center;  
+        }
+        .colrimg{
+                  background-color: rgba(44, 47, 47, 0.7);
+                  width: 100%;
+                  height: 90vh; 
+        }
+        
+        /* content inside bgimg */
+        .bgh1{
+            padding-top: 220px;
+            font-weight: bolder;
+            font-size: 65px;
+            text-align: center;
+            letter-spacing: 1px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+        .p{
+            font-size: 25px;
+        }
+        
+        .p1{
+            padding-top: 50px;   
+        }
+        
+        .but1{
+              width: 104px;
+              transition: 1s;
+        }
+        .but1:hover{
+                transform: scale(1.1);
+                padding: 14px;
+        }
+        
+                           /* contents */
+.content-and-formdiv{
+    width: 100%;
+    display: flex;
+    gap:150px;
+    padding-top: 30px;
+    background-color: rgb(255, 250, 250);
+}
+
+/* left  */
+.leftside{
+          width: 50%;
+          padding-left: 100px;
+          padding-top: 190px;
+}
+
+.p3{
+    padding-top: 50px;
+    font-size: 20px;
+    color: #DA0C81;
+}
+
+
+/* box */
+.boxdiv{
+    padding-bottom: 100px;   
+}
+
+h2{
+    color: rgb(7, 85, 148);    
+}
+
+
+/* rightside */
+.box{
+         width:100%;
+         height: 550px;
+         padding: 63px;
+         margin-top: 50px;
+         background-color: #9EC8B9;
+         border-radius: 10px;
+}
+
+/* icon and h2 */
+.h2icon{
+    display: flex;
+    justify-content: center;
+    gap:5px;
+    padding-bottom: 20px;
+}
+/* font */
+.fa-heart{
+         color:rgb(243, 65, 95);
+         padding-top: 8.1px;
+         font-size: 20px;
+}
+label{
+      font-weight: bolder;
+}
+/* form */
+.placeholder12{
+     width: 100%;
+     padding-top: 10px;
+     border-top: none;
+     border-left: none;
+     border-right: none;
+     padding-bottom: 10px;
+     margin-top: 20px;
+     margin-bottom: 20px;    
+}
+
+.placeholder3{
+              padding-top: 50px;
+             
+}
+
+input::placeholder{
+                  color: rgb(147, 44, 231);
+                  padding-left: 10px;
+                  
+}
+
+.checkdiv{
+           display: flex;
+           gap: 10px;
+           justify-content: center;
+           font-weight: bolder;
+           font-size: 20px;
+} 
+span{
+     color: rgb(234, 65, 153);
+    
+}
+.but2{
+    padding-left: 150px;
+}
+button{
+       font-weight: bolder;
+       color: white;
+       letter-spacing: 1px;
+       margin-top: 20px;
+       background-image:linear-gradient(to right,rgb(255, 103, 209),rgb(255, 251, 0));
+       border: none;
+       padding: 14px;
+       width:47%;
+       border-top-left-radius: 30px;
+       border-bottom-right-radius: 30px;
+       cursor: pointer;
+       color: black;
+       
+}
+
+
+
+/* footer */
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+    background-color: rgb(68, 57, 78);
+    padding-top: 50px;
+    padding-bottom: 70px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+
+.heading{
+         color: rgb(251, 251, 80);
+         text-align: center;
+}
+p{
+     line-height: 30px;
+}
+
+
+/* footer col3 */
+/* icon and p */
+.col4rows{
+         display: flex;
+         gap:10px;
+}
+
+.icons{
+      padding: 5px;
+      color: rgba(255, 39, 172, 0.973);
+      font-size: 18px;
+}
+
+/* fixed icon */
+.fixeddiv{
+    cursor: pointer;
+}
+.fa-whatsapp{
+           font-size: 45px;
+           color: rgb(6, 125, 6);
+           position: fixed;
+           bottom: 40px;
+           right: 40px;
+}
+.fa-whatsapp:hover{
+                 transform: scale(1.1);
+}
+
+h6{
+    position: fixed;
+    right: 6px;
+    bottom: 10px;
+    color: rgb(245, 19, 143);
+    font-size: 17.3px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+
+}
+
+@media only screen and (min-width:300px) and (max-width:600px) {   
+
+    
+    /* nav to display*/
+    .subNav {
+        position: fixed;
+        background-color: rgb(81, 159, 115);
+        left: 100%;
+        top: 46px;
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 50px;
+        height: 100vh;
+    }
+    .fa-bars { 
+        font-size: 22px;
+        display:unset!important;
+    }
+    
+    /* navbar */
+.navBar{
+            padding: 13px;
+            justify-content: space-between;
+    }
+.navBar h1 {
+            font-size: 30px;        
+}
+  
+
+/* for bg img */
+.bgimg{
+    height: 110vh;     
+}
+.colrimg{
+          height: 110vh; 
+}
+
+/* content inside bgimg */
+.bgh1{
+    padding-top: 230px;
+    font-size: 35px;
+}
+
+.p{
+    font-size: 22px;
+}
+
+.but1{
+      margin-top: 50px;
+}
+
+
+                   /* contents */
+.content-and-formdiv{
+width: 100%;
+flex-direction: column;
+align-items: center;
+gap:40px;
+padding-top: 30px;
+}
+
+/* left  */
+.leftside{
+  width: 100%;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.p3{
+    font-size: 20px;
+}
+
+
+/* rightside */
+.box{
+ width:100%;
+ height: 580px;
+ padding: 33px;
+
+}
+
+.boxdiv{
+    padding-bottom: 0px;   
+}
+
+.but2{
+padding-left:0px;
+text-align: center;
+}
+
+button{
+    width:30%;
+}
+
+
+
+/* footer */
+footer{
+   
+   flex-direction: column;
+   align-items: center;
+   gap: 70px;
+   padding-top: 70px;   
+}
+
+.heading{
+   text-align: center;
+}
+
+.col4rows{
+   padding-left: 10px;
+}
+
+/* fixed icon */
+
+.fa-whatsapp{
+    font-size: 25px;
+    bottom: 30px;
+    right: 25px;
+}
+
+h6{
+
+right: 1px;
+bottom: 10px;
+font-size: 13px;
+letter-spacing: 0px;
+
+}
+}
+
+
+@media only screen and (min-width:600px) and (max-width:900px) {   
+
+
+    /* nav to display*/
+    .subNav {
+        position: fixed;
+        background-color: rgb(81, 159, 115);
+        left: 100%;
+        top: 46px;
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 50px;
+        height: 100vh;
+    }
+    .fa-bars { 
+        font-size: 22px;
+        display:unset!important;
+    }
+    
+    /* navbar */
+    .navBar{
+            padding: 13px;
+            justify-content: space-between;
+    }
+    .navBar h1 {
+            font-size: 30px;        
+    }
+
+                  /* for bg img */
+.bgimg{
+    height: 90vh;     
+}
+.colrimg{
+          height: 90vh; 
+}
+
+
+/* content inside bgimg */
+.bgh1{
+    padding-top: 230px;
+    font-size: 35px;
+}
+
+.p{
+    font-size: 22px;
+}
+
+.but1{
+      margin-top: 50px;
+}
+
+
+                   /* contents */
+.content-and-formdiv{
+width: 100%;
+flex-direction: column;
+align-items: center;
+gap:20px;
+padding-top: 3px;
+}
+
+/* left  */
+.leftside{
+  width: 100%;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.p3{
+    font-size: 20px;
+}
+
+
+/* rightside */
+.box{
+ width:95%;
+ height: 550px;
+ padding: 33px;
+}
+
+.boxdiv{
+    padding-bottom: 0px;   
+}
+
+.but2{
+padding-left:0px;
+text-align: center;
+}
+
+button{
+    width:30%;
+}
+
+/* footer */
+footer{
+   
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+    padding-top: 80px;   
+ }
+ 
+ .heading{
+    text-align: center;
+ }
+ 
+ p{
+    font-size: 15px;
+ }
+ .col4rows{
+    padding-left: 10px;
+ }
+ 
+ 
+}
